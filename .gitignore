@@ -1,0 +1,25 @@
+# Datos: nunca al repo (se descargan con `uv run python -m radar_junior.download`)
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Modelos entrenados
+models/*.joblib
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Credenciales
+kaggle.json
+.env
+
+# Sistema / editor
+.DS_Store
+.vscode/
